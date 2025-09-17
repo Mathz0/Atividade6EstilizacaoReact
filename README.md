@@ -14,4 +14,4 @@ Clone este repositório:
 Setup rápido:
 1. npm install
 2. npm run dev
-Edite /main.jsx para trocar a versão importada .
+Edite /main.jsx para trocar a versão.
