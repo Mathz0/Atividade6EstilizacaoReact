@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Minimal global css used by non-tailwind versions */
+:root{ --accent:#1e3a8a; }
+[data-theme="dark"]{ color-scheme: dark; }

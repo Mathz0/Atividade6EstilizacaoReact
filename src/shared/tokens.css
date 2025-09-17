@@ -1,0 +1,37 @@
+/* CSS design tokens (colors, spacing, radii, shadows, breakpoints) */
+:root{
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --radius-1: 6px;
+  --radius-2: 12px;
+  --radius-full: 9999px;
+  --shadow-light: 0 6px 18px rgba(16,24,40,0.06);
+  --shadow-dark: 0 6px 22px rgba(2,6,23,0.6);
+  --transition-fast: 180ms;
+  /* Colors (light theme) */
+  --color-bg: #ffffff;
+  --color-surface: #f8fafc;
+  --color-text: #111827;
+  --color-muted: #6b7280;
+  --color-accent: #1e3a8a;
+  --color-accent-contrast: #ffffff;
+  --color-tag-bg: rgba(99,102,241,0.1);
+  --color-outline: rgba(16,24,40,0.06);
+  /* Breakpoints (explicit) */
+  --bp-sm: 480px;   /* <=480 -> 1 col */
+  --bp-md: 768px;   /* 481-768 -> 2 cols */
+  --bp-lg: 1024px;  /* 769-1024 -> 3 cols */
+  --bp-xl: 1025px;  /* >=1025 -> 4 cols */
+}
+
+[data-theme='dark'] {
+  --color-bg: #0f1724;
+  --color-surface: #0b1220;
+  --color-text: #e6eef8;
+  --color-muted: #9aa6b2;
+  --color-accent: #60a5fa;
+  --color-accent-contrast: #071024;
+  --shadow-current: var(--shadow-dark);
+}
