@@ -6,7 +6,7 @@ Este repositório contém 4 implementações da mesma tela de mini loja:
 - tailwind/ -> Tailwind CSS
 - styled/   -> styled-components
 
-lone este repositório:
+Clone este repositório:
    ```bash
    git clone https://github.com/Mathz0/Atividade6EstilizacaoReact.git
    ```
